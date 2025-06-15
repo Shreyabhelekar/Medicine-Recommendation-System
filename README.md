@@ -48,6 +48,36 @@ Pandas
 
 scikit-learn
 
+# Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/disease-prediction-flask.git
+cd disease-prediction-flask
+```
+
+# Setup Instructions
+
+1. Create Virtual Environment (Optional but Recommended)
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the Flask App
+
+```bash
+python app.py
+```
+The app will be available at: http://127.0.0.1:5000
 
 
 

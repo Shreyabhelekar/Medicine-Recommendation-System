@@ -48,38 +48,6 @@ Pandas
 
 scikit-learn
 
-# Installation
-
-1. Clone the Repository
-   git clone https://github.com/Shreyabhelekar/medicine-recommendation-system.git
-   cd medicine-recommendation-system
-
-2. Install Dependencies
-    pip install -r requirements.txt
-
-3. Ensure Directory Structure
-.
-|── app.py
-├── models/
-│   └── svc.pkl
-├── datasets/
-│   ├── symtoms_df.csv
-│   ├── description.csv
-│   ├── precautions_df.csv
-│   ├── medications.csv
-│   └── diets.csv
-├── templates/
-│   ├── index.html
-│   ├── about.html
-│   ├── contact.html
-│   └── blog.html
-
-
-4. Run the App
-   python app.py
-
-Then visit http://127.0.0.1:5000 in your browser.
-
 
 
 

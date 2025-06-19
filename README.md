@@ -53,8 +53,8 @@ scikit-learn
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/disease-prediction-flask.git
-cd disease-prediction-flask
+git clone https://github.com/Shreyabhelekar/Medicine-Recommendation-System.git
+cd Medicine-Recommendation-System
 ```
 
 # Setup Instructions
@@ -63,7 +63,7 @@ cd disease-prediction-flask
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+venv\Scripts\activate
 ```
 
 2. Install Dependencies

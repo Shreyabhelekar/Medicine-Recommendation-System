@@ -17,8 +17,6 @@ diets = pd.read_csv("datasets/diets.csv")
 # load model===========================================
 svc, symptoms_dict, diseases_list = pickle.load(open('models/model.pkl', 'rb'))
 
-#============================================================
-# custome and helping functions
 #==========================helper funtions================
 def helper(dis):
     desc = description[description['Disease'] == dis]['Description']
